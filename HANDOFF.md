@@ -17,8 +17,10 @@ Auto mode picks the nearest string (needs 3 frames before switching). In tune = 
 ## Tested (synthetic signals)
 - Unit: 27–2100 Hz, 4 timbres, no octave errors; clean error < 0.02 cents.
 - End-to-end in headless Chrome with a fake mic: A2 at −7 cents read −7.0 ¢, E4 at +0.8 cents read +0.8 ¢.
-- Not yet tested on a real phone or guitar.
+- Real phone: works on the user's Android phone via GitHub Pages (2026-11-22).
+
+## Hosting
+Live at https://ronalddeboer1991.github.io/guitar_tuner/ (GitHub Pages, branch main, root). Push to main = deploy; bump the sw.js cache version on every change.
 
 ## Open items
-- Hosting over https (e.g. GitHub Pages from this repo) so the mic works on Android.
 - Optional: native Android version (no APK could be built in the original session; the Android SDK was not reachable).
